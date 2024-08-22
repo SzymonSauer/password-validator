@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+}
+
+.password-validator {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(45deg, #303a44, #414d5b);
+}
+
+label {
+	padding-bottom: 40px;
+	font-size: 40px;
+}
+
+input[type='text'] {
+	height: 40px;
+	width: 300px;
+}
+
+[placeholder] {
+	font-size: 22px;
+}
+
+.message {
+	padding-top: 20px;
+	font-size: 20px;
+	visibility: hidden;
+}
+
+h3 {
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+
+.special {
+	padding-top: 20px;
+}
+
+span {
+	color: turquoise;
+	font-weight: bold;
+}
